@@ -1,0 +1,37 @@
+.box {
+    width: 300px
+}
+
+    .box button {
+        width: 100%;
+    }
+
+.input-field {
+    width: 280px;
+}
+
+.row {
+    margin: 0 10px;
+    display: block;
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
+
+    .box {
+        width: 720px;
+    }
+
+    .row {
+        margin: 18px 0;
+        display: flex;
+    }
+
+    .input-field {
+        width: 340px;
+    }
+
+    .left {
+        margin-right: 40px;
+    }
+}
